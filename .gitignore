@@ -1,0 +1,40 @@
+/target
+.settings
+.class
+.project
+.classpath
+*.iml
+.idea
+src/test/*
+WebRoot/META-INF/MANIFEST.MF
+src/main/webapp/im/*
+src/main/resources/dev/*
+
+
+# Eclipse
+.project
+.classpath
+/.settings
+
+# Maven
+/target
+
+# Gradle
+/.gradle
+/build
+
+# IDEA
+/.idea
+*.iml
+
+#本地log
+/log/
+.log
+
+#controller下的log
+controller/log/
+target/
+webapp/
+*.jar
+test/
+
