@@ -17,13 +17,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
     <modules>
         <module>cloud-client</module>
         <module>cloud-server</module>
         <module>boot-ribbon</module>
         <module>sevice-feign</module>
+        <module>service-miya</module>
     </modules>
     <dependencies>
         <dependency>
